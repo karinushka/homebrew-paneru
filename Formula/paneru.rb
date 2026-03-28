@@ -1,8 +1,8 @@
 class Paneru < Formula
-  desc "A sliding, tiling window manager for MacOS."
+  desc "Sliding, tiling window manager for MacOS"
   homepage "https://github.com/karinushka/paneru"
-  url "https://github.com/karinushka/paneru/archive/refs/tags/v0.3.6.tar.gz"
-  sha256 "92ba19ca0808b6f6833ca9f6128def5715cd3921e402a4981dfe982ea32e75e4"
+  url "https://github.com/karinushka/paneru/archive/refs/tags/v0.3.7.tar.gz"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   license "MIT"
 
   depends_on "rust" => :build
@@ -13,6 +13,6 @@ class Paneru < Formula
   end
 
   test do
-    assert_match "paneru #{version}", shell_output("#{bin}/paneru --version")
+    assert_match version.to_s, shell_output("#{bin}/paneru --version")
   end
 end
