@@ -2,7 +2,7 @@ class Paneru < Formula
   desc "Sliding, tiling window manager for MacOS"
   homepage "https://github.com/karinushka/paneru"
   url "https://github.com/karinushka/paneru/archive/refs/tags/v0.3.7.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "ec6086263e1c2cd71475d7eeba4b5fbd0b7de546ccbb9e58164e550978082233"
   license "MIT"
 
   depends_on "rust" => :build
