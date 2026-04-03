@@ -5,6 +5,8 @@ class Paneru < Formula
   sha256 "ec6086263e1c2cd71475d7eeba4b5fbd0b7de546ccbb9e58164e550978082233"
   license "MIT"
 
+  head "https://github.com/karinushka/paneru.git", branch: "main"
+
   depends_on "rust" => :build
   depends_on :macos
 
